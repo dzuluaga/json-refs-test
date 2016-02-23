@@ -11,7 +11,7 @@ $ json-refs resolve ./swagger/yaml/swagger.yaml
 }
 ```
 
-2. However, when I run this this command from API the reference is not resolved:
+2. However, when I run this command from API, the reference is not resolved:
 ```
 $ node app.js
 {"title":"1234","testref":{"$ref":"./definitions.yaml#/definitions/Pet"}}
