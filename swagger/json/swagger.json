@@ -1,0 +1,6 @@
+{
+  "title": "1234",
+  "testref": {
+  	"$ref": "./definitions.json#/definitions/Pet"
+  }
+}
